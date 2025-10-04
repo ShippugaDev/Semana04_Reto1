@@ -1,0 +1,87 @@
+body {
+    background-color: bisque;
+}
+
+.image {
+    width: 20%;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+
+}
+
+.producto {
+    background-color: whitesmoke;
+    margin: -10px;
+    width: 20%;
+    margin: -10px auto;
+}
+
+div h1.perfume {
+
+    color: rgb(0, 42, 1);
+    letter-spacing: 4px;
+    font-size: smaller;
+    padding: 10px 10px 0px 10px;
+}
+
+div h2.liriox {
+    font-size: xx-large;
+    padding: 0px 10px;
+
+}
+
+div p {
+    padding: 0px 10px;
+}
+
+.button {
+    background-color: rgb(1, 163, 1);
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    margin: auto;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.addcar {
+    font-size: 20px;
+
+}
+
+.material-symbols-outlined {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+div.precio1 {
+    color: #0d7503;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 10px;
+    position: relative;
+
+}
+
+div.precio2 {
+    text-decoration: line-through;
+    font-size: 10px;
+    color: gray;
+    left: 100px;
+    bottom: 12px;
+    margin-left: 10px;
+    display: block;
+    position: absolute;
+
+
+}
