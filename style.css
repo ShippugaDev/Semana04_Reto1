@@ -1,51 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: hsl(30, 38%, 92%);
+    padding: 20px;
 }
 
-.image {
-    width: 20%;
+main {
+    width: 400px;
+    background-color: whitesmoke;
+
 }
+
+
 
 .image-container {
-    display: flex;
+    /*display: flex;*/
     justify-content: center;
     margin-bottom: 0px;
 
 }
 
-.producto {
-    background-color: whitesmoke;
-    margin: -10px;
-    width: 20%;
-    margin: -10px auto;
+.imagen {
+    width: 100%;
 }
 
-div h1.perfume {
-    display: inline-block;
-    margin-top: 20px;
+.producto {
+    padding: 30px;
+    /* margin: -10px;
+    width: 20%;
+    margin: -10px auto;*/
+}
+
+main article h1.perfume {
+
+
     color: hsl(228, 12%, 48%);
     letter-spacing: 4px;
     font-size: smaller;
-    padding: 10px 10px 0px 10px;
+    /*padding: 10px 10px 0px 10px;*/
+    font-family: "Montserrat", sans-serif;
+    font-weight: inherit;
+
 
 
 }
 
-div h2.liriox {
+main article h2.liriox {
     font-size: xx-large;
-    padding: 0px 10px;
+    padding: 5px 0px;
     margin: 0px;
     font-family: "Fraunces", serif;
 
 }
 
-div p {
-    padding: 0px 10px;
+.parrafo {
+    /*padding: 0px 10px;*/
     font-family: "Montserrat", sans-serif;
     font-size: small;
+    line-height: 2;
+    color: hsl(228, 12%, 48%);
+    padding: 10px 0px;
 }
 
 .button {
@@ -54,20 +75,20 @@ div p {
     color: white;
     padding: 10px;
     width: 100%;
-    margin: auto;
+
 }
 
 .button-container {
     display: flex;
     justify-content: center;
-    padding: 10px;
+
 
 }
 
 .addcar {
     font-size: 12px;
     font-weight: bolder;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     /*s*/
 
 }
@@ -81,7 +102,7 @@ div.precio1 {
     color: hsl(158, 36%, 37%);
     font-size: 30px;
     font-weight: bolder;
-    margin-left: 10px;
+    padding: 10px 0px;
     position: relative;
     font-family: "Fraunces", serif;
 
@@ -96,6 +117,20 @@ div.precio2 {
     margin-left: 10px;
     display: block;
     position: absolute;
+
+
+}
+
+.p2 {
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+    font-size: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+
+
 
 
 }
